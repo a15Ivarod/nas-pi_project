@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+
+<a href="index.html">
+    <header>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <div class="header">
+
+            <script>
+                function myFunction() {
+
+                    let text = "Quieres enviar el formulario?\n Presiona OK o Cancelar.";
+                    if (confirm(text) == true) {
+                        text = "Mensaje enviado";
+                    } else {
+                        text = "Mensaje no enviado";
+                    }
+                    document.getElementById("demo").innerHTML = text;
+                }
+
+
+            </script>
+
+        </div>
+    </header>
+</a>
+
+<body>
+    <div class="topnavbar">
+        <a href="index.html">Inicio</a>
+        <a href="Servicios.html">Servicios</a>
+        <a href="Contacto.html" class="active">Contacto</a>
+        <a href="AboutUS.html">About Us</a>
+        <a href="http://84.78.122.51" style="float:right" target="_blank">Log-in OMV-NAS</a>
+
+    </div>
+
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h1 class="w3-center">CONTACTO</h1>
+        <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m4 w3-container">
+                <iframe class="iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.4278899469878!2d2.1047833667850044!3d41.386513035557805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49854a99cad2f%3A0xb564263b0575d513!2sInstituto%20Pedralbes!5e0!3m2!1ses!2ses!4v1652549331537!5m2!1ses!2ses"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+            </div>
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Av Pedralbes, 40
+                    <br>
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Teléfono: +34 722
+                    867
+                    354 <br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
+                    nasPI@gmail.com<br>
+                </div>
+                <form id="tre" action="https://formsubmit.co/a15ivarodgal@inspedralbes.cat" method="post"
+                    target="_blank">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Nombre">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="email" placeholder="email" required name="email">
+                            <input type="hidden" name="_autoresponse"
+                                value="El formulario ha sido enviado correctamente.">
+                            <input type="hidden" name="_cc" value="a20ariromrod@inspedralbes.cat">
+                        </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Mensaje">
+                    <button class="w3-button w3-black w3-right w3-section" type="submit" onclick="myFunction()">
+                        <i class="fa fa-paper-plane"></i> Enviar</i>
+                        <p id="demo"></p>
+
+                        <input type="hidden" name="_url" value="https://formsubmit.co/el/kacovo">
+                        <input type="hidden" name="_next" value="https://youtu.be/5p5d1vflc_g">
+                        <input type="hidden" name="_subject" value="Nuevo Formulario">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" style="display:none">
+
+                    </button>
+
+                    </button>
+
+                    <input class="w3-button w3-black w3-right w3-section " type="Reset" value="Limpiar">
+
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+
+<br></br>
+
+
+
+
+
+<footer>
+    <span class="footer"><a href="privacy.html">Política de
+            Privacidad</a><span>&nbsp;|&nbsp;<a href="legal.html">Aviso Legal</a></span>
+
+    </span>
+
+
+
+
+</footer>
+
+
+
+
+
+
+</span>
+</footer>
+
+</html>

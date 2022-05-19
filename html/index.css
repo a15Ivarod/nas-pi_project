@@ -1,0 +1,420 @@
+* {
+  box-sizing: border-box;
+
+
+}
+
+
+
+
+.header {
+  padding: 80px;
+  color: rgb(87, 87, 87);
+  background: url(logo.png)no-repeat center;
+  background-size: cover;
+  height: 7px;
+  width: 3%;
+  left: 40;
+  top: 0;
+  margin: auto;
+  text-align: center;
+}
+
+
+.topnavbar {
+  overflow: hidden;
+  background-color: #bb1141;
+  position: static;
+  position: sticky;
+  top: 0;
+  display: block
+}
+
+
+.topnavbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.topnavbar a:hover {
+  background-color: #ddd;
+  color: #666;
+}
+
+
+.topnavbar a.active {
+  background-color: green;
+  color: white;
+}
+
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+.footer {
+  padding: 12px;
+  text-align: center;
+  background: #bb1141;
+  margin-top: 20px;
+  align-content: center;
+  display: block;
+  color: #BD0034;
+  position: relative;
+}
+
+
+
+a:link,
+a:visited {
+  background-color: #bb1141;
+  color: white;
+
+}
+
+a:hover,
+a:active {
+  background-color: rgb(212, 211, 211);
+}
+
+
+
+
+
+
+html,
+body {
+  height: 100%;
+  font-weight: 400;
+}
+
+body {
+  background: #ffffff;
+  font-family: Arial;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.img {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.img1 {
+  background-image: url(discos.jpeg)no-repeat;
+  width: 68%;
+  padding: 20px;
+  background-size: cover
+}
+
+.img2 {
+  width: 2%;
+  padding: 5px;
+  background-size: cover
+}
+
+.img3 {
+  width: 100%;
+  background-size: cover;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+.img4 {
+  width: 100%;
+  background-size: cover;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.article-content {
+  flex: 2;
+}
+
+.table {
+  margin: auto;
+  border-collapse: collapse;
+  border-style: inset;
+
+}
+
+table,
+th,
+td {
+
+  text-align: center;
+  padding-top: 1%;
+}
+
+.boton {
+  border: white;
+  color: white;
+  padding: 3px 8px;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+nav.acceder ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  float: inherit;
+  display: flex;
+
+}
+
+nav.acceder #login {
+  display: inline-block;
+  font-size: 16px;
+  padding: 2px 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 600;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+nav.acceder #login-content {
+  position: absolute;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px 10px 10px 10px;
+  width: 260px;
+  display: none;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+input#user,
+input#pass {
+  background: #f1f1f1;
+  padding: 6px 5px;
+  margin-bottom: 10px;
+  width: 240px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#submit {
+  background-color: #bb1141;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  border: 1px solid #044E6B;
+  float: left;
+  height: 28px;
+  padding: 0;
+  width: 100px;
+  cursor: pointer;
+  font: bold 14px Arial;
+  color: #fff;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 9px 9px 9px 9px;
+
+
+}
+
+#submit:hover {
+  background-color: green;
+}
+
+label {
+  float: center;
+  line-height: 28px;
+  font-size: 14px;
+  color: #666;
+}
+
+.mapa iframe {
+  width: 100%;
+}
+
+
+.socialw {
+  width: 235px;
+  margin: 100px auto 0 auto;
+  overflow: auto;
+  height: 100%;
+}
+
+.social {
+  position: relative;
+  border: 1px solid #ff0000;
+  width: 37px;
+  height: 62px;
+  float: left;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.first {
+  margin-left: 0px;
+}
+
+/*--https://codepen.io/ryanbishop/pen/DqOPZw  !*/
+
+/*    ANIMATIONS   */
+
+/* Fade In Down */
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation: fadeInDown 1s both 0.5s;
+  -moz-animation: fadeInDown 1s both 0.5s;
+  -o-animation: fadeInDown 1s both 0.5s;
+  animation: fadeInDown 1s both 0.5s;
+}
+
+/* Fade In Down */
+
+/* Social Transition */
+
+.social img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: margin-top 250ms ease-in;
+  -moz-transition: margin-top 250ms ease-in;
+  -o-transition: margin-top 250ms ease-in;
+  transition: margin-top 250ms ease-in;
+}
+
+.social:hover img {
+  margin-top: -62px;
+}

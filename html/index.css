@@ -92,9 +92,9 @@
 
 a:link,
 a:visited {
-  background-color: #bb1141;
-  color: white;
-
+  background-color: none;
+  color: rgb(0, 0, 0);
+  text-decoration: none
 }
 
 a:hover,
@@ -227,8 +227,12 @@ td {
 }
 
 .boton {
+  background-color: #bb1141;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  border: 1px solid #044E6B;
   border: white;
-  color: white;
+  color: #bb1141;
   padding: 3px 8px;
   text-decoration: none;
   display: flex;
@@ -240,6 +244,12 @@ td {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
 }
+
+#boton:hover {
+  background-color: green;
+}
+
+
 
 nav.acceder ul {
   margin: 0;
@@ -275,7 +285,8 @@ nav.acceder #login-content {
 }
 
 input#user,
-input#pass {
+input#pass1,
+input#pass2 {
   background: #f1f1f1;
   padding: 6px 5px;
   margin-bottom: 10px;
@@ -417,4 +428,26 @@ label {
 
 .social:hover img {
   margin-top: -62px;
+}
+
+#err {
+  font-size:12px;
+  font-family: "Courier New";
+  border-right: .15em solid #bb1141;
+  animation: blink 1s steps(1) infinite;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: escribir 5s steps(30) infinite alternate;
+
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
 }

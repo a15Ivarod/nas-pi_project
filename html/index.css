@@ -274,7 +274,7 @@ nav.acceder #login {
 }
 
 nav.acceder #login-content {
-  position: absolute;
+  position: relative;
   background: #fff;
   padding: 15px;
   border-radius: 10px 10px 10px 10px;
@@ -285,6 +285,7 @@ nav.acceder #login-content {
 }
 
 input#user,
+input#email,
 input#pass1,
 input#pass2 {
   background: #f1f1f1;
@@ -352,7 +353,7 @@ label {
   margin-left: 0px;
 }
 
-/*--https://codepen.io/ryanbishop/pen/DqOPZw  !*/
+
 
 /*    ANIMATIONS   */
 
